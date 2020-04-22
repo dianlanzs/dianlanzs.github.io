@@ -1,1 +1,16 @@
-# dianlanzs.github.io
+{
+    "applinks":{
+        "apps":[],
+        "details":[
+            {
+                "appID":"5YGW6A7Z27.cn.ygtek.xygenViewer",
+                "paths":["*"]
+            }
+        ]
+    }
+    
+     "webcredentials":{
+        "apps":["5YGW6A7Z27.cn.ygtek.xygenViewer"] 
+    }
+    
+}
