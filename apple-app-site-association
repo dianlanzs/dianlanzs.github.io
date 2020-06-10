@@ -1,13 +1,19 @@
 {
 "applinks": {
 		"apps": [],
-		"details": [{
+		"details": [
+		{
 			"appID": "5YGW6A7Z27.cn.ygtek.xygenViewer",
 			"paths": ["*"]
-		}]
+		},
+		{
+			"appID": "5YGW6A7Z27.com.ygtek.alicam",
+			"paths": ["*"]
+		}
+		]
 	},
 
-	"webcredentials": {
-		"apps": ["5YGW6A7Z27.cn.ygtek.xygenViewer"]
+"webcredentials": {
+		"apps": ["5YGW6A7Z27.cn.ygtek.xygenViewer","5YGW6A7Z27.com.ygtek.alicam"]
 	}
 }
