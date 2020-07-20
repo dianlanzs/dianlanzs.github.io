@@ -4,7 +4,7 @@
 		"details": [
 		{
 			"appID": "5YGW6A7Z27.com.ygtek.alicam",
-			"paths": ["/iLook/*"]
+			"paths": ["*"]
 		}
 		]
 	},
