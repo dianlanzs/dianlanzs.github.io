@@ -33,17 +33,16 @@ MobLink([
       /* 兼容 iOS >= 11.2 */
     }
       </style>
-     <script type="text/javascript" src="//bdyw.t4m.cn/applink.js"></script>
-      <script type="text/javascript">   f($(window).width() === 375 && $(window).height() === 724 && window.devicePixelRatio === 3){
 
-        $(".phonex-pb").css("padding-bottom","34px");
-} </script>
 
     </head>
     <body>
       
       
-      MobLink([
+     
+      
+           <script type="text/javascript" src="//bdyw.t4m.cn/applink.js"></script>
+       MobLink([
     {
         el: "",
         path: "demo/a",
@@ -61,8 +60,10 @@ MobLink([
         }
     },
 ]);
-      
-      
+      <script type="text/javascript">   f($(window).width() === 375 && $(window).height() === 724 && window.devicePixelRatio === 3){
+
+        $(".phonex-pb").css("padding-bottom","34px");
+} </script>
       
         <p>当前网页用于实现 Universal Link, 完全依赖于 MobLink</p>
         <p>
