@@ -33,22 +33,28 @@ MobLink([
       /* 兼容 iOS >= 11.2 */
     }
       </style>
-     
+     <script type="text/javascript" src="//bdyw.t4m.cn/applink.js"></script>
+MobLink([
+    {
+        el: "",
+        path: "demo/a",
+        params: {
+            key1: "value1",
+            key2: "value2",
+        }
+    },
+    {
+        el: "#openAppBtn",
+        path: "demo/b",
+        params: {
+            key1: "value1",
+            key2: "value2",
+        }
+    },
+]);
     </head>
     <body>
         <p>当前网页用于实现 Universal Link, 完全依赖于 MobLink</p>
-<!--         <script type="text/javascript" src="https://f.moblink.mob.com/3.0.1/moblink.js?appkey=271db5f52372a"></script> -->
-      <script type="text/javascript" src="//bdyw.t4m.cn/applink.js"></script>
-        <script>
-            MobLink({
-                    el: '',
-                    path: 'ilook/home',
-                    params: {
-                    key: 'value',
-                    title: '由 Universal Link 而来',
-                    }
-                    })
-            </script>
         <p>
         直接使用 URL 打开
         </p>
